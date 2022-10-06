@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Images: using srcset and sizes attributes</title>
+        <style>
+            main {
+                max-width: 960px;
+                margin: auto;
+            }
+
+            img {
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Responsive Images: using srcset</h1>
+
+        <main>
+            <h2>Responsive using srcset only</h2>
+
+            <img
+                srcset="
+                    images/snow-400.webp 1x,
+                    images/snow-600.webp 2x,
+                    images/snow-960.webp 3x
+                "
+                alt="responsive demo using srcset attribute"
+            />
+        </main>
+    </body>
+</html>
