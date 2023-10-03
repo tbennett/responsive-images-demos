@@ -25,10 +25,42 @@
     </head>
     <body>
         <picture>
-            <source media="(min-width:601px)" srcset="images/wide.jpg" />
-            <source media="(min-width:480px)" srcset="images/mobile.jpg" />
+            <source
+                type="image/avif"
+                media="(min-width:601px)"
+                srcset="images/wide.avif"
+            />
+            <source
+                type="image/avif"
+                media="(min-width:480px)"
+                srcset="images/mobile.avif"
+            />
+            <source
+                type="image/avif"
+                media="(max-width:479px)"
+                srcset="images/small.avif"
+            />
+
+            <source
+                type="image/webp"
+                media="(min-width:601px)"
+                srcset="images/wide.webp"
+            />
+            <source
+                type="image/webp"
+                media="(min-width:480px)"
+                srcset="images/mobile.webp"
+            />
+
+            <source
+                type="image/webp"
+                media="(max-width:479px)"
+                srcset="images/small.webp"
+            />
+
             <img src="images/small.jpg" alt="demo" />
         </picture>
+
         <p>An example of using picture for art direction</p>
         <p>
             Est similique quam eos molestiae, amet cupiditate qui. Doloribus
