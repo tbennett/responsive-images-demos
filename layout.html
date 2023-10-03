@@ -26,12 +26,12 @@
 
             <img
                 srcset="
-                    images/snow-400.webp 1000w,
-                    images/snow-600.webp 1600w,
-                    images/snow-960.webp 1920w
+                    images/snow-600.webp   600w,
+                    images/snow-960.webp   960w,
+                    images/snow-1280.webp 1280w
                 "
-                sizes="(max-width:899px) calc(100vw - 16px)"
-                src="images/snow-400.webp"
+                sizes="calc(100vw - 16px)"
+                src="images/snow-600.webp"
                 alt="responsive demo using srcset attribute"
             />
 
@@ -40,8 +40,7 @@
                 image to scale up to, before swapping to the next size. In the
                 example above, the 400px width image will scale up to 600px. At
                 801px browser width, the image will swap out to the 960px wide
-                version. At 1201 viewport width, the image will swap out to the
-                1280px wide version.
+                version.
             </p>
             <p>
                 Est similique quam eos molestiae, amet cupiditate qui. Doloribus
