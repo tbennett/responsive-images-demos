@@ -1,6 +1,6 @@
 <svg width="210" height="212" viewBox="0 0 210 212" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_2)">
-<rect width="210" height="212" fill="white"/>
+<rect width="210" height="212" fill="none"/>
 <ellipse cx="106" cy="120" rx="87" ry="86" fill="#DC2C2C"/>
 <path d="M105 21.2792L124.76 83.831L125.643 86.6262H128.574H192.826L140.749 125.544L138.474 127.244L139.329 129.953L159.161 192.734L107.394 154.048L105 152.259L102.606 154.048L50.8385 192.734L70.6707 129.953L71.5264 127.244L69.251 125.544L17.1738 86.6262H81.426H84.3573L85.2402 83.831L105 21.2792Z" fill="#FFED8C" stroke="#15439C" stroke-width="8"/>
 </g>
